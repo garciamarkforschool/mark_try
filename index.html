@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age on Other Worlds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚀 Age on Other Worlds</h1>
+        <p>Discover how old you would be on other worlds!</p>
+    </header>
+
+    <main>
+        <section class="calculator">
+            <h2>Solar System Age Calculator</h2>
+
+            <label for="birthday">Enter your birthday:</label>
+            <input type="date" id="birthday">
+
+            <label for="planet">Choose a world:</label>
+            <select id="planet">
+                <option value="all">All Nine Worlds</option>
+                <option value="Mercury">Mercury</option>
+                <option value="Venus">Venus</option>
+                <option value="Earth">Earth</option>
+                <option value="Mars">Mars</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturn">Saturn</option>
+                <option value="Uranus">Uranus</option>
+                <option value="Neptune">Neptune</option>
+                <option value="Pluto">Pluto (Dwarf Planet)</option>
+            </select>
+
+            <button onclick="calculateAge()">Calculate My Age</button>
+
+            <div id="message"></div>
+            <div id="results"></div>
+        </section> 
+
+        <section class="student">
+            <h2>About This Project</h2>
+            <p>This website calculates a person's age on different worlds using their orbital periods.</p>
+            <p><strong>Formula:</strong> Earth Days Lived ÷ Length of a World's Year</p>
+
+            <p><strong>Name:</strong> Mark C. Garcia</p>
+            <p><strong>Course:</strong> BSIT- 1B</p>
+            <p><strong>Section:</strong> 1 B</B></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Solar System Age Calculator | BSIT Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
